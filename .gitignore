@@ -1,0 +1,21 @@
+# Environments
+venv/
+.venv/
+env/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Application specific (auto-generated files)
+*.bookmarks.yaml
+*.target_toc.yaml
+*.ref_toc.yaml
+app_settings.yaml
+
+# PDFs (don't upload giant books by accident)
+*.pdf
+# Exception if you want to add a tiny example PDF:
+# !example.pdf

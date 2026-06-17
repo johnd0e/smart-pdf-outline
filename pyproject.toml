@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pdf-toc-mapper"
+version = "0.1.0"
+description = "AI-powered PDF Table of Contents extractor and bookmark mapper."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pymupdf>=1.23.0",
+    "google-genai>=0.1.0",
+    "PyYAML>=6.0",
+]
+
+[project.scripts]
+pdf-toc-mapper = "pdf_toc_mapper:main"
